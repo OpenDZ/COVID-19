@@ -2,18 +2,23 @@
 
 
 ***
-Update by Djalal Harouni @tixxdz tixxdz@gmail.com
+Update by Djalal Harouni github.com/tixxdz tixxdz@gmail.com
 
-The original data will be merged in here from: https://github.com/CSSEGISandData/COVID-19
+How it works:
+-  The original data will be merged from: https://github.com/CSSEGISandData/COVID-19
+   That is world data sources.
 
-Algeria related files will be updated based on Ministry of Health
-resources.
-You can find them in directory `dz_covid_19_data`
+- Algerian data will be merged either from that or manually in directory
+  `dz_covid_19_data` that is csv file format.
 
-For Algeria source merge new data there.
+- For Algerian data source, right now only Confirmed cases is tracked by
+state/city as per original data source from the Algerian Ministry of
+Health: http://covid19.sante.gov.dz/carte/
 
 
-For worled relater resource merge remote origin data
+Data is fetched automatically by map.covid19.opendz.org then pushed to
+local databases and grafana reads and displays automatically.
+
 ***
 
 
