@@ -1,7 +1,7 @@
 # 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE
 
 
-```
+***
 Update by Djalal Harouni @tixxdz tixxdz@gmail.com
 
 The original data will be merged in here from: https://github.com/CSSEGISandData/COVID-19
@@ -9,7 +9,13 @@ The original data will be merged in here from: https://github.com/CSSEGISandData
 Algeria related files will be updated based on Ministry of Health
 resources.
 You can find them in directory `dz_covid_19_data`
-```
+
+For Algeria source merge new data there.
+
+
+For worled relater resource merge remote origin data
+***
+
 
 
 
