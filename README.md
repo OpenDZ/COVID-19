@@ -32,13 +32,23 @@ There are two databases:
 inside this directory: `dz_covid_19_data`
 
 
-
 And finally:
 - A cron job is updating the two time series databases.
+ Both the apps are node apps inside covid-19 and covid-19-dz directories
+ of user `tixxdz`
 
 
 Inside there is:
 nginx+influxdb+grafana+cron job running an app.
+
+
+- Grafana dashboards:
+"Algeria COVID-19 Live" is the production one.
+Other dashboards are for experimenting , use these ones if you are
+deploying new ones.
+
+There is no time to beautify or improve the setup: as long as data and
+people can see it , it is ok.
 
 ***
 
