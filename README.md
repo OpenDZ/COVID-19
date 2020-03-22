@@ -5,7 +5,7 @@ Original Repo title is this:
 
 
 ***
-Update by Djalal Harouni github.com/tixxdz tixxdz@gmail.com
+Update by Djalal Harouni https://github.com/tixxdz tixxdz@gmail.com
 
 How it works:
 -  The original data will be merged from: https://github.com/CSSEGISandData/COVID-19
@@ -49,6 +49,10 @@ deploying new ones.
 
 There is no time to beautify or improve the setup: as long as data and
 people can see it , it is ok.
+
+
+- Influx server
+Before restarting server take backups in /opt directory
 
 ***
 
