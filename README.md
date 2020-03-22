@@ -1,3 +1,6 @@
+# Algeria Monitoring workload for COVID-19
+
+Original Repo title is this:
 # 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE
 
 
@@ -11,13 +14,31 @@ How it works:
 - Algerian data will be merged either from that or manually in directory
   `dz_covid_19_data` that is csv file format.
 
-- For Algerian data source, right now only Confirmed cases is tracked by
+*For Algerian data source, right now only Confirmed cases is tracked by
 state/city as per original data source from the Algerian Ministry of
-Health: http://covid19.sante.gov.dz/carte/
+Health: http://covid19.sante.gov.dz/carte/ there were no reports of the
+death cases per city, we may add them at anytime...*
 
 
 Data is fetched automatically by map.covid19.opendz.org then pushed to
 local databases and grafana reads and displays automatically.
+
+
+There are two databases:
+
+- 'covid19' that is auto updated from https://github.com/CSSEGISandData/COVID-19
+
+- 'covid19-dz-production' that is auto updated from sources that are
+inside this directory: `dz_covid_19_data`
+
+
+
+And finally:
+- A cron job is updating the two time series databases.
+
+
+Inside there is:
+nginx+influxdb+grafana+cron job running an app.
 
 ***
 
