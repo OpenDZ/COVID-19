@@ -11,6 +11,10 @@ How it works:
 -  The original data will be merged from: https://github.com/CSSEGISandData/COVID-19
    That is world data sources.
 
+   git fetch upstream
+   git merge upstream/master
+
+
 - Algerian data will be merged either from that or manually in directory
   `dz_covid_19_data` that is csv file format.
 
